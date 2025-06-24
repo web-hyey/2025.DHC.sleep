@@ -25,13 +25,11 @@ export default function ArticleDetailScreen({ route, navigation }) {
                 <Text style={articleStyles.detailListItem}>• 3단계: 가장 깊은 잠(서파수면)으로, 신체 회복과 성장에 매우 중요합니다. 이 단계에서는 깨우기가 어렵습니다.</Text>
             </View>
             
-            {/* 수정된 부분 1 */}
             <View style={articleStyles.detailSubSection}>
                 <Text style={articleStyles.detailSubTitle}>2. 렘수면(REM): 꿈꾸는 잠</Text>
                 <Text style={articleStyles.detailContent}>{articleData?.content?.rem_sleep}</Text>
             </View>
 
-            {/* 수정된 부분 2 */}
             <Text style={articleStyles.detailSectionTitle}>수면 주기</Text>
             <Text style={articleStyles.detailContent}>{articleData?.content?.cycle}</Text>
         </View>
